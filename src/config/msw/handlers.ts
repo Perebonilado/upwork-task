@@ -7,21 +7,4 @@ export const handlers = [
   }),
 ];
 
-export type CandleData = [
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  number,
-  number,
-  string,
-  string,
-  number,
-  number
-];
 
-export type PoloniexPricingResponse = CandleData[]
